@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 public class ProjetoApplication {
 
-	public static void main(String[] args) {
-
-		SpringApplication.run(ProjetoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ProjetoApplication.class, args);
+    }
 
 }
